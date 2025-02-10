@@ -1,5 +1,5 @@
 import React from "react";
-import PieChart from "../Components/PieChart";
+import Piechart from "../Components/Piechart";
 import Barchart from "../Components/BarChart";
 import VerticalBars from "../Components/VerticalBars";
 import LineChart from "../Components/LineChart";
@@ -16,7 +16,7 @@ const Dashboard = () => {
     <div className="px-8">
       <div className=" flex flex-col lg:flex-row gap-9 mb-8">
         <div className="">
-          <PieChart />
+          <Piechart />
         </div>
 
         <div className="flex-1">
